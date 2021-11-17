@@ -7,12 +7,12 @@
 @ r12 - (len - 1)
 
 main:
-    mov r0, #255
-    lsl r0, #4
-    mov r1, #4
-    mov r2, #11
+    mov r0, #13
+    lsl r0, #5
+    mov r1, #5
+    mov r2, #7
     bl get_bitseq_s
-    add r0, r0, #0      @ r0 should be 255
+    add r0, r0, #0      @ r0 should be 5
 get_bitseq_s:
     sub r12, r2, r1     @ r12 = len - 1
 

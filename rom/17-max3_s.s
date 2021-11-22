@@ -6,8 +6,8 @@
  */
 main:
     mov r0, #1
-    mov r2, #3
-    mov r3, #2
+    mov r1, #3
+    mov r2, #2
     bl max3_s
     add r0, r0, #0  @ r0 should be 3
 max3_s:
